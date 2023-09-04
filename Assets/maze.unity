@@ -2078,7 +2078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Score: 0'
+  m_Text: 'Score:  0'
 --- !u!222 &371756949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3089,6 +3089,11 @@ MonoBehaviour:
   health: 5
   teleporter1: {fileID: 283786853}
   teleporter2: {fileID: 1741462808}
+  winOrLose: {fileID: 1689782737}
+  scoreText: {fileID: 371756948}
+  healthText: {fileID: 1581665634}
+  WinLoseText: {fileID: 2131940018}
+  WinLoseBG: {fileID: 1689782739}
 --- !u!1 &632508799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6867014735890832382, guid: 6a86662fdb7307946b09ab7338538dd1,
@@ -7981,7 +7986,7 @@ PrefabInstance:
     - target: {fileID: 4051710479037601383, guid: c0ddc6439b6780d41a8bd9ae22ecd3ac,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.4096346
+      value: -5.51
       objectReference: {fileID: 0}
     - target: {fileID: 4051710479037601383, guid: c0ddc6439b6780d41a8bd9ae22ecd3ac,
         type: 3}
@@ -7991,7 +7996,7 @@ PrefabInstance:
     - target: {fileID: 4051710479037601383, guid: c0ddc6439b6780d41a8bd9ae22ecd3ac,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.6050968
+      value: -7.75
       objectReference: {fileID: 0}
     - target: {fileID: 4051710479037601383, guid: c0ddc6439b6780d41a8bd9ae22ecd3ac,
         type: 3}
