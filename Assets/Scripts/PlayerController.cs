@@ -27,6 +27,10 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("menu");
+        }
         if (health <= 0)
         {
             winOrLose.SetActive(true);
